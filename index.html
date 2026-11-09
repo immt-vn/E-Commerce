@@ -1,0 +1,329 @@
+<!-- index.html --> 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>E-Commerce</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <header class="navbar">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke="#4F46E5"/>
+          <path d="M2 17L12 22L22 17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke="#4F46E5"/>
+          <path d="M2 12L12 17L22 12" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke="#4F46E5"/>
+        </svg>
+        <div class="name">VibeTech</div>
+      </div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Deals</a>
+        <a href="#">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-label="Search">
+          <path d="M15.8333 9.16667C15.8333 12.8486 12.8486 15.8333 9.16667 15.8333C5.48477 15.8333 2.5 12.8486 2.5 9.16667C2.5 5.48477 5.48477 2.5 9.16667 2.5C12.8486 2.5 15.8333 5.48477 15.8333 9.16667Z" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" stroke="#0F172A"/>
+          <path d="M17.5 17.5L13.875 13.875" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" stroke="#0F172A"/>
+        </svg>
+
+        <span class="cart-icon" role="img" aria-label="Shopping cart, 3 items">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <g clip-path="url(#clip0_1_142)">
+              <path d="M8.33335 17.5C8.33335 17.9602 7.96026 18.3333 7.50002 18.3333C7.03978 18.3333 6.66669 17.9602 6.66669 17.5C6.66669 17.0398 7.03978 16.6667 7.50002 16.6667C7.96026 16.6667 8.33335 17.0398 8.33335 17.5Z" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" stroke="#0F172A"/>
+              <path d="M17.5 17.5C17.5 17.9602 17.1269 18.3333 16.6666 18.3333C16.2064 18.3333 15.8333 17.9602 15.8333 17.5C15.8333 17.0398 16.2064 16.6667 16.6666 16.6667C17.1269 16.6667 17.5 17.0398 17.5 17.5Z" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" stroke="#0F172A"/>
+              <path d="M0.833313 0.833328H4.16665L5.0006 5M5.0006 5L6.39998 11.9917C6.47618 12.3753 6.6849 12.72 6.9896 12.9652C7.2943 13.2105 7.67556 13.3408 8.06665 13.3333H16.1666C16.5577 13.3408 16.939 13.2105 17.2437 12.9652C17.5484 12.72 17.7571 12.3753 17.8333 11.9917L19.1666 5H5.0006ZM5.0006 5H4.99998" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" stroke="#0F172A"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_1_142">
+                <rect width="20" height="20" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+          <span class="cart-count">3</span>
+        </span>
+      </div>
+    </header>
+
+    <div class="portfolio-header"> 
+        <h1>Unleash the Next Level</h1> 
+        <p>Explore our curated collection of professional workspace gear, crafted to elevate
+          your daily productivity and creative flow.
+        </p> 
+    </div> 
+
+    <main class="grid-container"> 
+        <!-- Project Card 1 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <span class="marks">Hot</span>
+                <img  src="Minimalist Wireless Mouse.png" alt="Minimalist wireless mouse">
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category"> ACCESSORIES</div> 
+                    <div class="name">Wireless Mouse</div> 
+                </div>
+                <div class="item-price">
+                    <h2>$59.00</h2>
+                </div>
+                
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button>             
+            </div> 
+        </article> 
+         
+        <!-- Project Card 2 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <img  src="52245a21de5481ef898d0fb10b06a35e363fab45.png" alt="Dynamic Application UI" alt="Dynamic 
+Application UI"> 
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category">KEYBOARDS</div> 
+                    <div class="name">Tactix K85 Mechanical</div> 
+                </div>
+                <div class="item-price">
+                    <h2>$129.00</h2>
+                </div>
+                
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button>             
+            </div> 
+        </article> 
+
+        <!-- Project Card 3 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <img  src="e0c8ddcb85055753ed8339714800b94807cc12ef.png" alt="Dynamic Application UI"> 
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category">AUDIO</div> 
+                    <div class="name">ZenSound ANC Headset</div> 
+                </div>
+                <div class="item-price">
+                    <h2>$189.00</h2>
+                </div>
+                
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button>             </div> 
+        </article> 
+
+        <!-- Project Card 4 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <span class="marks">Sale</span>
+                <img src="8ea33cd2119f065bdd930f548ec99481f0c0a753.png" alt="Dynamic Application UI"> 
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category">WEARABLES</div> 
+                    <div class="name">NovaFit Smart Watch</div> 
+
+                </div>
+                <div class="item-price">
+                    <h2>$99.00</h2>
+                </div>
+                
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button>             
+            </div> 
+        </article> 
+         
+        <!-- Project Card 5 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <span class="marks2">New</span>
+                <img src="a75f8d46d180e14ab695fe8cee85ec2b208cd696.png" alt="Dynamic 
+Application UI"> 
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category">Monitors</div> 
+                    <div class="name">Horizon 27" IPS QHD Display</div> 
+                </div>
+                <div class="item-price">
+                    <h2>$299.00</h2>
+                </div>
+                
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button> 
+            </div> 
+        </article> 
+
+        <!-- Project Card 6 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <img  src="dd4502296ca5eda1ad760c42d38f973042c93eb8.png" alt="Dynamic 
+Application UI"> 
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category">AUDIO</div> 
+                    <div class="name">StreamMic Pro Cardioid</div> 
+                </div>
+                <div class="item-price">
+                    <h2>$149.00</h2>
+                </div>
+                
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button> 
+            </div> 
+        </article> 
+
+        <!-- Project Card 7 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <span class="marks">Sale</span>
+                <img  src="37116d436d99284a42a247bda61845c87aebdff2.png" alt="Dynamic 
+Application UI"> 
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category">Accessories</div> 
+                    <div class="name">Lumos RGB Smart Desk Lamp</div> 
+                </div>
+                <div class="item-price">
+                    <h2>$45.00</h2>
+                </div>
+
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button> 
+            </div> 
+        </article> 
+
+        <!-- Project Card 8 --> 
+        <article class="project-card"> 
+            <div class="card-image-box"> 
+                <img  src="54de5c4b16e68750d4c9630820016dde416e7ab2.png" alt="Dynamic 
+Application UI"> 
+            </div> 
+            <div class="card-content"> 
+                <div class="item-info">
+                    <div class="category">Accessories</div> 
+                    <div class="name">ErgoStand Aluminum Laptop Riser</div> 
+                </div>
+                <div class="item-price">
+                    <h2>$69.00</h2>
+                </div>
+
+                <button class="btn-more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_1_28)">
+                        <path d="M4 1.33331L2 3.99998V13.3333C2 13.6869 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6666 3.33333 14.6666H12.6667C13.0203 14.6666 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.6869 14 13.3333V3.99998L12 1.33331H4Z" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M2 4H14" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                        <path d="M10.6667 6.66669C10.6667 7.37393 10.3857 8.05221 9.88562 8.55231C9.38552 9.0524 8.70725 9.33335 8 9.33335C7.29276 9.33335 6.61448 9.0524 6.11438 8.55231C5.61429 8.05221 5.33334 7.37393 5.33334 6.66669" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_28">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                    </svg>
+                    <a>Add to Cart</a>
+                </button> 
+            </div> 
+        </article>
+        <br>
+    </main> 
+    <div class="portfolio-footer"> 
+        <p>© 2026 VibeTech. Designed for Web Development Practice.</p> 
+    </div> 
+</body> 
+</html> 
